@@ -80,3 +80,24 @@ float:left;
     margin: auto;
     width: 150px;
 }
+.main-context{
+    background: rgb(209, 202, 202);
+    width: 500px;
+    padding: 10px;
+    position:relative;
+    /* left:0;
+    right:0; */
+    top:-40px;
+
+
+    margin:auto;
+}
+.main-context h3{ 
+    text-align: center;
+}
+.main-context p{
+    text-align: center;
+    font-family:"nanumsquare";
+    margin:10px;
+    background: red;
+}
