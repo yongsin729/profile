@@ -1,3 +1,6 @@
+.div,input,textarea{
+    box-sizing:border-box;
+}
 .container{
     width:800px;
     font-family: "nanumsquare";
@@ -81,16 +84,17 @@ float:left;
     width: 150px;
 }
 .main-context{
-    background: rgb(209, 202, 202);
-    width: 500px;
-    padding: 10px;
+    background: #eee;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
     position:relative;
+    text-align: center;
     /* left:0;
     right:0; */
     top:-40px;
-
-
     margin:auto;
+    z-index: 5;
 }
 .main-context h3{ 
     text-align: center;
@@ -99,5 +103,37 @@ float:left;
     text-align: center;
     font-family:"nanumsquare";
     margin:10px;
-    background: red;
+}
+.text-input{
+    padding:10px;
+    font-size: 20px;
+    border:1px solid black;
+    border-radius: 5px;
+}
+
+
+.form-background{
+    background-color:black;
+    padding:30px;
+}
+.form-white{
+    background: white;
+    padding:30px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+.form-input{
+    width:100%
+    padding: 10px;
+    font-size: 20px;
+    border : 1px solid black;
+    border-radius: 5px;
+}
+.w-50{
+    width:50%;
+    float: left;
+}
+.both{
+    clear: both;
 }
