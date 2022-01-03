@@ -3,19 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="widtd=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <table>
+    <div class="form-background">
+        <div class="form-main">
+        <h4>Your Shopping Cart</h4>
+        <table class="cart-table">
+            <thead>
             <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
+                <td></td>
+                <td class="cell-long">ITEM</td>
+                <td>AMOUNT</td>
+                <td>PRICE</td>
+                <td>TOTAL</td>
             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="./img/FE.jfif" class="tb-img"> </td>
+                <td><span class="pp">SONY</span><p class="model">FE 70-200 mm F2.8 GM OSS</p></td>
+                <td  class="amount">1</td>
+                <td>$1927.00</td>
+                <td>$1927.00</td>
+            </tr>
+            <tr>
+                <td><img src="./img/a.jfif" class="tb-img"></td>
+                <td ><span class="pp">SONY</span><p class="model">Sonnar T* E 24mm F1.8 ZA</p></td>
+                <td class="amount">1</td>
+                <td>$989.00</td>
+                <td>$989.00</td>
+            </tr>
+            <tr><td colspan="5" style="text-align: right; border:none">total price : $2916.00</td></tr>
+        </tbody>
         </table>
-</div>
+        <br>
+       <a href="#" style="color:black">Edit Your Shopping Cart</a>
+       <button class="pay-button">Choose Payment method</button>
+       
+    </div>
+    </div>
 </body>
 </html>
+
+
+<!-- <table>
+            <thead>
+                <tr>
+                    <td><p>ddddd</p><p>ddddd</p></td>
+                    <td style="vertical-align: middle;">2</td>
+                    <td>3</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+            
+        </table> -->
