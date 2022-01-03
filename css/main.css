@@ -114,4 +114,27 @@ td{
     padding:15px 25px;
     border:1px solid #c2d3de;
     border-radius: 5px;
+    cursor: pointer;
+}
+.pay-button:hover{
+    background-color: chocolate;
+}
+.pay-button:active{
+    background-color: brown;
+    border: 2px solid black
+}
+/* .input-test{
+    font-size: 20px;
+}
+.input-test:focus{
+    border:2px solid red;
+} */
+.custom{
+    text-decoration: none;
+}
+.custom:link{
+    color:violet
+}
+.custom-link:visited{
+    color: black;
 }
