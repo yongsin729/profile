@@ -83,6 +83,13 @@ float:left;
     margin: auto;
     width: 150px;
 }
+.button:hover{
+    background:chocolate
+}
+.button:active{
+    background:chocolate;
+    border:1px solid red;
+}
 .main-context{
     background: #eee;
     width: 80%;
@@ -137,4 +144,67 @@ float:left;
 .both{
     clear: both;
 }
-.
+.flex-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+}
+.flex-item{
+    font-weight: 100px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    margin: 5px;
+}
+.nav-container{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 5px;
+    background-color: pink;
+}
+.nav-item{
+    margin-right: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width:1200px){
+    .main-title{
+        font-size: 30px;
+    }
+    .nav-item{
+        font-size: 12px;
+    }
+}
+.practice-back{
+    
+}
+.practice-table{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top:50px;
+    margin-bottom:50px;
+   
+}
+.practice-div{
+    float:left;
+    width:25%;
+}
+
+@media screen and (max-width:1200px) {
+    .practice-div{
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .practice-div{
+        width: 100%;
+        
+    }
+}

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: '작명';
+    src: url();
+}
+
 .profile{
  width:100px;
  display:block;
@@ -137,4 +142,7 @@ td{
 }
 .custom-link:visited{
     color: black;
+}
+p,h4,h3,h2,h1,span{
+    transform: rotate(0.03deg);
 }
