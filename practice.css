@@ -195,6 +195,25 @@ float:left;
     float:left;
     width:25%;
 }
+.w-40{
+    padding: 20px;
+    padding-right: 43px;
+    float: right;
+}
+.w-submit{
+    font-size: 20px;
+    color: white;
+    padding:5px;
+   width: 100px;
+   text-align: center;
+   background: orange;
+    border-radius: 5px;
+    border:1px solid white;
+}
+.w-submit:hover{
+    background:rgb(145, 9, 9);
+    border:3px solid orange;
+}
 
 @media screen and (max-width:1200px) {
     .practice-div{
