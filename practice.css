@@ -125,6 +125,7 @@ float:left;
 }
 .form-white{
     background: white;
+   
     padding:30px;
     width: 80%;
     max-width: 600px;
@@ -196,6 +197,8 @@ float:left;
     width:25%;
 }
 .w-40{
+    position: relative;
+    top:35px;
     padding: 20px;
     padding-right: 43px;
     float: right;
